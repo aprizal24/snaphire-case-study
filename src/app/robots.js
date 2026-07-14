@@ -4,5 +4,6 @@ export default function robots() {
       userAgent: "*",
       allow: "/",
     },
+    sitemap: "https://snaphire-case-study.vercel.app/sitemap.xml",
   };
 }
