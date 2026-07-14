@@ -13,8 +13,55 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "SnapHire - Case Study",
-  description: "UI/UX case study for SnapHire photographer booking app",
+  title: "SnapHire — UI/UX Case Study",
+  description: "A UI/UX case study showcasing the end-to-end design process of a photography booking application, from user research to high-fidelity interface design.",
+  keywords: [
+  "UI UX",
+  "Case Study",
+  "Product Design",
+  "Photography Booking",
+  "Mobile App",
+  "SnapHire"
+  ],
+  authors: [
+    {
+      name: "Aprizal Triansyah",
+      url: "https://snaphire-case-study.vercel.app",
+    },
+  ],
+  creator: "Aprizal Triansyah",
+  publisher: "Aprizal Triansyah",
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  openGraph: {
+    title: "SnapHire — UI/UX Case Study",
+    description:
+      "A UI/UX case study showcasing the design process of a photography booking application.",
+    url: "https://snaphire-case-study.vercel.app",
+    siteName: "SnapHire",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "SnapHire UI/UX Case Study",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "SnapHire — UI/UX Case Study",
+    description:
+      "A UI/UX case study showcasing the design process of a photography booking application.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({
