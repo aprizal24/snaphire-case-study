@@ -16,6 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "SnapHire — UI/UX Case Study",
   description: "A UI/UX case study showcasing the end-to-end design process of a photography booking application, from user research to high-fidelity interface design.",
+  verification: {google: "3zTDXL5u5yLpdWx4En-lxeAKeEXH4WEC-XnmPlcu8R4"},
   keywords: [
   "UI UX",
   "Case Study",
