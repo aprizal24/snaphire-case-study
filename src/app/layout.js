@@ -38,6 +38,10 @@ export const metadata = {
     follow: true,
   },
 
+  alternates: {
+    canonical: "https://snaphire-case-study.vercel.app",
+  },
+
   openGraph: {
     title: "SnapHire — UI/UX Case Study",
     description:
